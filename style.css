@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: calc(100vw / 1440 * 10);
+}
+.hero__nav {
+  display: flex;
+}
+.hero__fournav {
+  display: flex;
+  margin-left: auto;
+  gap: 3rem;
+}
+.hero__index {
+  position: relative;
+}
+.sunnysside {
+  margin-left: 3rem;
+}
+.img__header {
+  width: 144rem;
+  margin-top: -5rem;
+  position: absolute;
+  z-index: -1;
+}
