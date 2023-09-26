@@ -2,27 +2,114 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
+  /* font-family: "Barlow", sans-serif;
+  font-family: "Fraunces", serif; */
 }
 html {
   font-size: calc(100vw / 1440 * 10);
 }
 .hero__nav {
   display: flex;
+  padding-top: 5rem;
 }
 .hero__fournav {
   display: flex;
   margin-left: auto;
-  gap: 3rem;
+  gap: 7rem;
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Barlow";
 }
 .hero__index {
   position: relative;
 }
-.sunnysside {
-  margin-left: 3rem;
+.sunnyside {
+  color: white;
+  font-size: 6rem;
+  font-family: "Barlow";
+  margin-left: 5rem;
+  font-weight: 900;
 }
 .img__header {
   width: 144rem;
-  margin-top: -5rem;
-  position: absolute;
+  margin-top: -37rem;
+  position: relative;
   z-index: -1;
+}
+.hero__fournavbtn {
+  font-family: "'Barlow'";
+  border-radius: 10rem;
+  width: 17rem;
+  border: none;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.hero__heading {
+  text-align: center;
+  margin-top: 10rem;
+  color: white;
+  font-size: 5rem;
+  letter-spacing: 2rem;
+  font-family: "Fraunces";
+  font-weight: 900;
+}
+.section__grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: 144rem;
+}
+.section__one {
+  width: 72rem;
+}
+.section__two {
+  width: 72rem;
+}
+.section__three {
+  width: 72rem;
+}
+.section__four {
+  width: 72rem;
+}
+.section__h2 {
+  font-size: 5rem;
+  font-family: "Fraunces";
+  width: 41rem;
+  margin-top: 20rem;
+  margin-left: 10rem;
+  font-weight: 900;
+}
+.sectionp {
+  font-size: 2.5rem;
+  font-family: "Barlow";
+  width: 63rem;
+  margin-top: 6rem;
+  margin-left: 10rem;
+  color: gray;
+}
+.section__anchor {
+  margin-top: 8rem;
+  margin-left: 10rem;
+  font-size: 2rem;
+  font-family: "Fraunces";
+  font-weight: 900;
+}
+.section__h22 {
+  font-size: 5rem;
+  font-family: "Fraunces";
+  width: 57rem;
+  margin-top: 20rem;
+  margin-left: 10rem;
+  font-weight: 900;
+}
+.section__p2 {
+  font-size: 2.5rem;
+  font-family: "Barlow";
+  width: 63rem;
+  margin-top: 6rem;
+  margin-left: 10rem;
+  color: gray;
+}
+.sectionimg {
+  width: 72rem;
 }
