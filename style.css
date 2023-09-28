@@ -6,6 +6,10 @@
   /* font-family: "Barlow", sans-serif;
   font-family: "Fraunces", serif; */
 }
+.main {
+  overflow: hidden;
+  width: 144rem;
+}
 html {
   font-size: calc(100vw / 1440 * 10);
 }
@@ -112,4 +116,145 @@ html {
 }
 .sectionimg {
   width: 72rem;
+}
+.section__h4 {
+  font-family: "Fraunces";
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  top: 34rem;
+  left: 0rem;
+  color: #5a5a5a;
+  right: 0rem;
+  margin: 0 auto;
+}
+.sectionp2 {
+  font-size: 2.5rem;
+  font-family: "Barlow";
+  width: 59rem;
+  text-align: center;
+  margin-top: 4rem;
+  position: absolute;
+  top: 43rem;
+  left: 0rem;
+  color: #5a5a5a;
+  right: 0rem;
+  margin: 0 auto;
+}
+.section__h44 {
+  font-family: "Fraunces";
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  top: 34rem;
+  left: 0rem;
+  color: #5a5a5a;
+  right: 0rem;
+  margin: 0 auto;
+}
+.section__five {
+  position: relative;
+}
+.sectionp22 {
+  font-size: 2.5rem;
+  font-family: "Barlow";
+  width: 58rem;
+  text-align: center;
+  margin-top: 4rem;
+  position: absolute;
+  top: 43rem;
+  left: 0rem;
+  color: #5a5a5a;
+  right: 0rem;
+  margin: 0 auto;
+}
+.section__h5,
+.section__six {
+  width: 72rem;
+  position: relative;
+}
+.section__img2 {
+  width: 100%;
+}
+.testimonial__heading {
+  font-family: "'FRAUNCES'";
+  text-align: center;
+  font-size: 1.7rem;
+  letter-spacing: 0.7rem;
+  margin-top: 19rem;
+  color: #5a5a5a;
+}
+.testimonial__person {
+  border-radius: 50%;
+  width: 8rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.testimonials {
+  display: flex;
+  margin-top: 10rem;
+  gap: 5rem;
+  margin: 0 auto;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  padding-top: 10rem;
+}
+.testimonial__testimonies {
+  font-size: 2rem;
+  font-family: "Barlow";
+  width: 38rem;
+  text-align: center;
+  color: #5a5a5a;
+  margin-top: 8rem;
+}
+.testimonial__name {
+  font-size: 2rem;
+  font-family: "Fraunces";
+  text-align: center;
+  margin-top: 7rem;
+}
+.testimonial__position {
+  font-size: 1.5rem;
+  font-family: "Barlow";
+  text-align: center;
+  color: #5a5a5a;
+  margin-top: 1.5rem;
+}
+.lifestyles {
+  display: flex;
+  width: 144rem;
+}
+.lifestyles__images {
+  width: 35.8rem;
+  margin-top: 14rem;
+}
+.footer {
+  background-color: hsl(168, 34%, 41%);
+  text-align: center;
+}
+.footer__heading {
+  padding-top: 5rem;
+  font-size: 4rem;
+  font-family: "Barlow";
+  font-weight: 900;
+  color: #5a5a5a;
+}
+.footer__list {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+.footer__lister {
+  padding-top: 3rem;
+  font-size: 2.5rem;
+  font-family: "Barlow";
+  color: #5a5a5a;
+}
+.footer__socials {
+  padding-top: 8rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding-bottom: 10rem;
 }
